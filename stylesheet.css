@@ -1,0 +1,44 @@
+*
+{
+  margin:0;
+  padding:0;
+}
+body
+{
+  overflow: hidden;
+}
+h1
+{
+  font-family: 'PT Mono', monospace;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+.bodywrap
+{
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-areas: ". main .";
+  height:100vh;
+}
+.site
+{
+  margin-bottom: 0.6em;
+}
+.bodywrap ul
+{
+  margin-bottom:1em;
+}
+.bodywrap li
+{
+  margin-bottom: 0.6em;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'PT Mono', monospace;
+  font-weight: 300;
+}
+.hotlinks
+{
+  grid-area: main;
+  align-self: center;
+  justify-self:center;
+}
